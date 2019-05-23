@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+#main {
+  display: grid;
+  background-color: rgb(240, 240, 240);
+  font-size: 17px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Helvetica,
+    sans-serif;
+  box-shadow: 0 11px 22px rgba(0, 0, 0, 0.22), 0 7px 7px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 9px 19px rgb(0, 0, 0, 0.17), 0 7px 7px rgb(0, 0, 0, 0.21);
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  box-shadow: 0 11px 22px rgba(0, 0, 0, 0.22), 0 7px 7px rgba(0, 0, 0, 0.25);
+}
+
+#tribute-info {
+  margin: 0 auto;
+}
+
+#timeline-container {
+  display: grid;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0 9px 19px rgba(0, 0, 0, 0.21), 0 7px 7px rgba(0, 0, 0, 0.22);
+}
+
+#timeline-container:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+ul {
+  margin: auto;
+}
+
+li {
+  text-align: left;
+  color: rgb(57, 57, 57);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+li:hover {
+  color: rgb(80, 90, 210);
+  text-shadow: 0 7px 17px rgba(80, 90, 210, 0.17),
+    0 7px 7px rgba(50, 50, 210, 0.21);
+}
+
+#quote {
+  font-size: 19px;
+  font-style: italic;
+  margin-bottom: -10px;
+}
+
+footer {
+  font-size: 16px;
+  color: rgb(57, 57, 57);
+  margin: 10px;
+}
+
+p > a {
+  color: rgb(93, 105, 219);
+}
+
+p > a:hover {
+  color: rgb(40, 68, 230);
+}
